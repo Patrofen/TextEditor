@@ -5,7 +5,7 @@ namespace TextEditor
     public interface IMessageService
     {
         void ShowMessage(string message);
-        void ShowMExclmation(string exclamation);
+        void ShowExclmation(string exclamation);
         void ShowError(string error);
     }
     class MessageService:IMessageService
@@ -14,7 +14,7 @@ namespace TextEditor
         {
             MessageBox.Show(message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-        public void ShowMExclmation(string exclamation)
+        public void ShowExclmation(string exclamation)
         {
             MessageBox.Show(exclamation, "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }

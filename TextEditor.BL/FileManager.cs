@@ -9,6 +9,7 @@ namespace TextEditor.BL
         string GetContent(string filePath, Encoding encoding);
         void SaveContent(string content, string filepath);
         void SaveContent(string content, string filepath, Encoding encoding);
+        int GetSymbolCount(string content);
         bool IsExist(string filePath);
     }
     public class FileManager:IFileManager
