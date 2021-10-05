@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace TextEditor
+namespace TextEditor.Messages
 {
     public interface IMessageService
     {

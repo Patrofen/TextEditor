@@ -1,5 +1,6 @@
 ﻿using System;
 using TextEditor.BL;
+using TextEditor.Messages;
 
 namespace TextEditor
 {
